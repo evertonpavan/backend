@@ -14,6 +14,7 @@ import { ShelterSupplyModule } from './shelter-supply/shelter-supply.module';
 import { PartnersModule } from './partners/partners.module';
 import { SupportersModule } from './supporters/supporters.module';
 import { SuppliesHistoryModule } from './supplies-history/supplies-history.module';
+import { NotificationsModule } from './notifications/notifications.module';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { SuppliesHistoryModule } from './supplies-history/supplies-history.modul
     PartnersModule,
     SupportersModule,
     SuppliesHistoryModule,
+    NotificationsModule,
   ],
   controllers: [],
   providers: [
